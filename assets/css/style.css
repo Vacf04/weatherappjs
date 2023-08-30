@@ -3,6 +3,7 @@
   --color-2: #404040;
   --color-3: #606060;
   --color-4: #cccccc;
+  --color-5: #707070;
   --font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,6 +57,10 @@ body {
   color: var(--color-4);
 }
 
+.weather .search-container .search-city:focus {
+  outline: none;
+}
+
 .weather .search-container .search-submit {
   padding: .4rem;
   border-top-right-radius: .8rem;
@@ -66,6 +71,10 @@ body {
   background-color: var(--color-3);
 }
 
+.weather .search-container .search-submit:hover {
+  background-color: var(--color-5);
+}
+
 .weather-container .display-weather-data {
   display: flex;
   flex-direction: column;
@@ -73,11 +82,19 @@ body {
   justify-content: center;
   margin-top: 1rem;
   height: 100%;
-  width: 15rem;
+  width: 100%;
   font-size: 1.5rem;
   gap: 1rem;
 }
 
 .weather-container .display-weather-data .weather-icon {
   width: 6rem;
+}
+
+@media (max-width: 600px) {
+  .weather-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
 }
