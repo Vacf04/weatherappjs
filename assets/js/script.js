@@ -73,4 +73,8 @@ function displayWeatherData(temperature, condition, cityName, country) {
  function getUrlCity(city) {
   const urlCity = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
   return urlCity;
+<<<<<<< HEAD
  };
+=======
+ };
+>>>>>>> 6d60c0f279a215584bb5b46ba5977e425946d300
