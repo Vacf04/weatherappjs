@@ -1,7 +1,22 @@
-# WEATHER APP
-A simple weather app, I did with HTML, CSS and JavaScript I used the API of openweathermap.org
-# FEATURES
--> You can search for city of any countries.
+# Weather App
 
--> The display of temperature in celsius and a icon showing how is the weather.
-![main-page](https://github.com/Vacf04/weatherappjs/assets/89648256/10f7cc78-d5e2-4420-8948-271ac8fa0079)
+Um simples aplicativo web de clima, onde você pode verificar o clima em qualquer cidade do mundo.
+
+## FEATURES
+
+- Pesquisar qualquer cidade.
+- Verificar a temperatura.
+- Verificar o clima.
+
+## MOBILE
+
+![mobile](https://github.com/Vacf04/weatherappjs/assets/89648256/abdb8bdb-2223-4bb6-8c3e-cfacb9938701)
+
+## PC 
+
+![pc](https://github.com/Vacf04/weatherappjs/assets/89648256/c8839ac4-5385-471d-8d4b-e22aca3d8366)
+
+
+
+
+
