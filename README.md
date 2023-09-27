@@ -1,4 +1,4 @@
-# Weather App
+# WEATHER APP
 
 Um simples aplicativo web de clima, onde você pode verificar o clima em qualquer cidade do mundo.
 
